@@ -1,0 +1,9 @@
+numpy>=1.5.1
+scipy
+google-api-python-client
+google-cloud-bigquery
+google-cloud-storage
+pandas
+fsspec
+pyarrow
+gspread
