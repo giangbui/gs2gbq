@@ -1,0 +1,957 @@
+2023-06-14 21:32:29,567 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:32:29,568 - INFO - Executing GSHandler.read
+2023-06-14 21:33:14,003 - INFO - Executing GSHandler.read
+2023-06-14 21:33:14,895 - INFO - Finished executing GSHandler.read
+2023-06-14 21:33:27,222 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:33:27,222 - INFO - Executing GSHandler.read
+2023-06-14 21:34:05,197 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:34:05,197 - INFO - Executing GSHandler.read
+2023-06-14 21:34:18,344 - INFO - Finished executing GSHandler.read
+2023-06-14 21:34:18,345 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 21:37:50,971 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:37:50,971 - INFO - Executing GSHandler.read
+2023-06-14 21:37:52,005 - INFO - Finished executing GSHandler.read
+2023-06-14 21:37:52,005 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 21:38:43,632 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:38:43,632 - INFO - Executing GSHandler.read
+2023-06-14 21:38:44,608 - INFO - Finished executing GSHandler.read
+2023-06-14 21:38:44,609 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 21:38:54,707 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:38:54,707 - INFO - Executing GSHandler.read
+2023-06-14 21:38:55,721 - INFO - Finished executing GSHandler.read
+2023-06-14 21:38:55,722 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 21:39:14,917 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:39:14,918 - INFO - Executing GSHandler.read
+2023-06-14 21:39:15,890 - INFO - Finished executing GSHandler.read
+2023-06-14 21:39:15,890 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 21:47:06,105 - INFO - Executing ConfigLoader.__init__
+2023-06-14 21:47:06,105 - INFO - Executing GSHandler.read
+2023-06-14 21:47:07,185 - INFO - Finished executing GSHandler.read
+2023-06-14 21:47:07,185 - INFO - Finished executing ConfigLoader.__init__
+2023-06-14 23:19:26,350 - INFO - Executing GSHandler.read
+2023-06-14 23:19:27,687 - INFO - Finished executing GSHandler.read
+2023-06-14 23:19:27,687 - INFO - Function GSHandler.read took 1.337728500366211 seconds to run.
+2023-06-14 23:19:52,132 - INFO - Executing GSHandler.read
+2023-06-14 23:19:52,967 - INFO - Finished executing GSHandler.read
+2023-06-14 23:19:52,968 - INFO - Function GSHandler.read took 0.8354570865631104 seconds to run.
+2023-06-14 23:26:46,089 - INFO - Executing GSHandler.write
+2023-06-14 23:27:24,447 - INFO - Executing GSHandler.write
+2023-06-14 23:40:23,429 - INFO - Executing GSHandler.write
+2023-06-14 23:40:24,536 - INFO - Finished executing GSHandler.write
+2023-06-14 23:47:18,001 - INFO - Executing GSHandler.read
+2023-06-14 23:52:12,735 - INFO - Executing GSHandler.read
+2023-06-14 23:58:47,337 - INFO - Executing GSHandler.read
+2023-06-14 23:59:49,396 - INFO - Executing GSHandler.read
+2023-06-14 23:59:57,717 - INFO - Executing GSHandler.read
+2023-06-15 00:04:35,594 - INFO - Executing GSHandler.read
+2023-06-15 01:03:37,558 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:03:37,558 - INFO - Executing GSHandler.read
+2023-06-15 01:03:45,024 - INFO - Finished executing GSHandler.read
+2023-06-15 01:03:45,025 - INFO - Function GSHandler.read took 7.466603994369507 seconds to run.
+2023-06-15 01:03:45,026 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:04:04,341 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:04:04,342 - INFO - Executing GSHandler.read
+2023-06-15 01:04:05,040 - INFO - Finished executing GSHandler.read
+2023-06-15 01:04:05,040 - INFO - Function GSHandler.read took 0.6974837779998779 seconds to run.
+2023-06-15 01:04:05,041 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:05:16,698 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:05:25,228 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:05:25,229 - INFO - Executing GSHandler.read
+2023-06-15 01:05:27,057 - INFO - Finished executing GSHandler.read
+2023-06-15 01:05:27,058 - INFO - Function GSHandler.read took 1.8292548656463623 seconds to run.
+2023-06-15 01:05:27,059 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:05:43,617 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:05:43,617 - INFO - Executing GSHandler.read
+2023-06-15 01:05:44,291 - INFO - Finished executing GSHandler.read
+2023-06-15 01:05:44,291 - INFO - Function GSHandler.read took 0.6737842559814453 seconds to run.
+2023-06-15 01:05:44,292 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:05:55,461 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:05:55,462 - INFO - Executing GSHandler.read
+2023-06-15 01:05:56,235 - INFO - Finished executing GSHandler.read
+2023-06-15 01:05:56,236 - INFO - Function GSHandler.read took 0.774224042892456 seconds to run.
+2023-06-15 01:05:56,237 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:06:00,293 - INFO - Executing JobManager.run
+2023-06-15 01:07:46,529 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:07:46,529 - INFO - Executing GSHandler.read
+2023-06-15 01:07:47,184 - INFO - Finished executing GSHandler.read
+2023-06-15 01:07:47,185 - INFO - Function GSHandler.read took 0.6554603576660156 seconds to run.
+2023-06-15 01:07:47,186 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:07:50,122 - INFO - Executing JobManager.run
+2023-06-15 01:10:22,518 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:10:22,519 - INFO - Executing GSHandler.read
+2023-06-15 01:10:23,370 - INFO - Finished executing GSHandler.read
+2023-06-15 01:10:23,370 - INFO - Function GSHandler.read took 0.8511242866516113 seconds to run.
+2023-06-15 01:10:23,371 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:10:26,206 - INFO - Executing JobManager.run
+2023-06-15 01:16:28,687 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:16:28,687 - INFO - Executing GSHandler.read
+2023-06-15 01:16:29,788 - INFO - Finished executing GSHandler.read
+2023-06-15 01:16:29,788 - INFO - Function GSHandler.read took 1.1008210182189941 seconds to run.
+2023-06-15 01:16:29,789 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:16:29,790 - INFO - Executing JobManager.run
+2023-06-15 01:16:29,790 - INFO - Executing GSHandler.read
+2023-06-15 01:16:32,251 - INFO - Executing LogWriter.write_row
+2023-06-15 01:16:32,252 - INFO - Executing GSHandler.write
+2023-06-15 01:18:48,800 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:18:48,801 - INFO - Executing GSHandler.read
+2023-06-15 01:18:49,490 - INFO - Finished executing GSHandler.read
+2023-06-15 01:18:49,491 - INFO - Function GSHandler.read took 0.6898126602172852 seconds to run.
+2023-06-15 01:18:49,491 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:18:49,492 - INFO - Executing JobManager.run
+2023-06-15 01:18:49,492 - INFO - Executing GSHandler.read
+2023-06-15 01:18:50,377 - INFO - Executing LogWriter.write_row
+2023-06-15 01:18:50,377 - INFO - Executing GSHandler.write
+2023-06-15 01:19:44,000 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:19:44,001 - INFO - Executing GSHandler.read
+2023-06-15 01:19:48,770 - INFO - Finished executing GSHandler.read
+2023-06-15 01:19:48,771 - INFO - Function GSHandler.read took 4.7704386711120605 seconds to run.
+2023-06-15 01:19:48,771 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:19:52,096 - INFO - Executing JobManager.run
+2023-06-15 01:19:52,775 - INFO - Executing GSHandler.read
+2023-06-15 01:20:18,647 - INFO - Executing LogWriter.write_row
+2023-06-15 01:20:42,317 - INFO - Executing GSHandler.write
+2023-06-15 01:23:37,371 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:23:37,371 - INFO - Executing GSHandler.read
+2023-06-15 01:23:38,152 - INFO - Finished executing GSHandler.read
+2023-06-15 01:23:38,152 - INFO - Function GSHandler.read took 0.781242847442627 seconds to run.
+2023-06-15 01:23:38,153 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:23:38,153 - INFO - Executing JobManager.run
+2023-06-15 01:23:38,154 - INFO - Executing GSHandler.read
+2023-06-15 01:23:38,877 - INFO - Executing LogWriter.write_row
+2023-06-15 01:23:38,877 - INFO - Executing GSHandler.write
+2023-06-15 01:23:39,904 - INFO - Finished executing GSHandler.write
+2023-06-15 01:23:39,905 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:23:39,907 - INFO - Executing GSHandler.read
+2023-06-15 01:23:42,002 - INFO - Finished executing GSHandler.read
+2023-06-15 01:23:42,003 - INFO - Function GSHandler.read took 2.095998525619507 seconds to run.
+2023-06-15 01:23:42,003 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:23:43,534 - INFO - Starting job 8395a239-557a-4cbf-8eee-8ad36f52b398 to ingest data
+2023-06-15 01:23:45,487 - INFO - Job finished.
+2023-06-15 01:23:45,488 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:23:45,488 - INFO - Function GSHandler.push_data_to_big_query took 3.485196828842163 seconds to run.
+2023-06-15 01:23:45,489 - INFO - Executing LogWriter.write_row
+2023-06-15 01:23:45,489 - INFO - Executing GSHandler.write
+2023-06-15 01:23:46,395 - INFO - Finished executing GSHandler.write
+2023-06-15 01:23:46,396 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:23:46,397 - INFO - Executing GSHandler.read
+2023-06-15 01:23:47,612 - INFO - Finished executing GSHandler.read
+2023-06-15 01:23:47,613 - INFO - Function GSHandler.read took 1.2151639461517334 seconds to run.
+2023-06-15 01:23:47,613 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:23:49,318 - INFO - Starting job 19fab5f9-7517-474d-873f-47844b431bc3 to ingest data
+2023-06-15 01:23:51,669 - INFO - Job finished.
+2023-06-15 01:23:51,670 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:23:51,671 - INFO - Function GSHandler.push_data_to_big_query took 4.058607339859009 seconds to run.
+2023-06-15 01:23:51,671 - INFO - Executing LogWriter.write_row
+2023-06-15 01:23:51,672 - INFO - Executing GSHandler.write
+2023-06-15 01:23:52,572 - INFO - Finished executing GSHandler.write
+2023-06-15 01:23:52,572 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:23:52,580 - INFO - Finished executing JobManager.run
+2023-06-15 01:34:54,074 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:34:54,074 - INFO - Executing GSHandler.read
+2023-06-15 01:34:54,865 - INFO - Finished executing GSHandler.read
+2023-06-15 01:34:54,865 - INFO - Function GSHandler.read took 0.7907166481018066 seconds to run.
+2023-06-15 01:34:54,866 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:34:54,866 - INFO - Executing JobManager.run
+2023-06-15 01:34:54,867 - INFO - Executing GSHandler.read
+2023-06-15 01:34:55,661 - INFO - Executing LogWriter.write_row
+2023-06-15 01:34:55,662 - INFO - Executing GSHandler.write
+2023-06-15 01:34:56,673 - INFO - Finished executing GSHandler.write
+2023-06-15 01:34:56,673 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:34:56,676 - INFO - Executing GSHandler.read
+2023-06-15 01:34:58,336 - INFO - Finished executing GSHandler.read
+2023-06-15 01:34:58,337 - INFO - Function GSHandler.read took 1.6618638038635254 seconds to run.
+2023-06-15 01:34:58,337 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:35:00,126 - INFO - Starting job b63a04b1-a6bb-4665-91a3-27236f2d5424 to ingest data
+2023-06-15 01:35:03,108 - INFO - Job finished.
+2023-06-15 01:35:03,109 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:35:03,109 - INFO - Function GSHandler.push_data_to_big_query took 4.771224737167358 seconds to run.
+2023-06-15 01:35:03,110 - INFO - Executing LogWriter.write_row
+2023-06-15 01:35:03,110 - INFO - Executing GSHandler.write
+2023-06-15 01:35:04,031 - INFO - Finished executing GSHandler.write
+2023-06-15 01:35:04,032 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:35:04,032 - INFO - Executing GSHandler.read
+2023-06-15 01:35:12,378 - INFO - Finished executing GSHandler.read
+2023-06-15 01:35:12,379 - INFO - Function GSHandler.read took 8.347464799880981 seconds to run.
+2023-06-15 01:35:12,380 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:35:14,126 - INFO - Starting job f08f8d07-4d59-4d53-88b0-529ede2a1c80 to ingest data
+2023-06-15 01:35:19,196 - INFO - Job finished.
+2023-06-15 01:35:19,197 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:35:19,197 - INFO - Function GSHandler.push_data_to_big_query took 6.816686153411865 seconds to run.
+2023-06-15 01:35:19,198 - INFO - Executing LogWriter.write_row
+2023-06-15 01:35:19,198 - INFO - Executing GSHandler.write
+2023-06-15 01:35:20,085 - INFO - Finished executing GSHandler.write
+2023-06-15 01:35:20,085 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:35:20,093 - INFO - Finished executing JobManager.run
+2023-06-15 01:37:50,015 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:37:50,016 - INFO - Executing GSHandler.read
+2023-06-15 01:37:50,856 - INFO - Finished executing GSHandler.read
+2023-06-15 01:37:50,856 - INFO - Function GSHandler.read took 0.8403191566467285 seconds to run.
+2023-06-15 01:37:50,857 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:37:50,858 - INFO - Executing JobManager.run
+2023-06-15 01:37:50,858 - INFO - Executing GSHandler.read
+2023-06-15 01:37:51,518 - INFO - Executing LogWriter.write_row
+2023-06-15 01:37:51,519 - INFO - Executing GSHandler.write
+2023-06-15 01:37:52,492 - INFO - Finished executing GSHandler.write
+2023-06-15 01:37:52,492 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:37:52,495 - INFO - Executing GSHandler.read
+2023-06-15 01:37:53,475 - INFO - Finished executing GSHandler.read
+2023-06-15 01:37:53,476 - INFO - Function GSHandler.read took 0.9809465408325195 seconds to run.
+2023-06-15 01:37:53,476 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:37:55,337 - INFO - Starting job 8015f479-90a8-4ae7-90a3-5e642aaa5272 to ingest data
+2023-06-15 01:38:26,304 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:38:26,304 - INFO - Executing GSHandler.read
+2023-06-15 01:38:26,995 - INFO - Finished executing GSHandler.read
+2023-06-15 01:38:26,995 - INFO - Function GSHandler.read took 0.6908121109008789 seconds to run.
+2023-06-15 01:38:26,996 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:38:26,996 - INFO - Executing JobManager.run
+2023-06-15 01:38:26,997 - INFO - Executing GSHandler.read
+2023-06-15 01:38:27,810 - INFO - Executing LogWriter.write_row
+2023-06-15 01:38:27,810 - INFO - Executing GSHandler.write
+2023-06-15 01:38:28,739 - INFO - Finished executing GSHandler.write
+2023-06-15 01:38:28,740 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:38:28,743 - INFO - Executing GSHandler.read
+2023-06-15 01:38:29,625 - INFO - Finished executing GSHandler.read
+2023-06-15 01:38:29,626 - INFO - Function GSHandler.read took 0.8829445838928223 seconds to run.
+2023-06-15 01:38:29,626 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:38:31,270 - INFO - Starting job 824307f1-b605-4169-a55a-e0761c1057cb to ingest data
+2023-06-15 01:38:33,687 - INFO - Job finished.
+2023-06-15 01:38:33,687 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:38:33,688 - INFO - Function GSHandler.push_data_to_big_query took 4.061768293380737 seconds to run.
+2023-06-15 01:38:33,688 - INFO - Executing LogWriter.write_row
+2023-06-15 01:38:33,689 - INFO - Executing GSHandler.write
+2023-06-15 01:38:34,550 - INFO - Finished executing GSHandler.write
+2023-06-15 01:38:34,551 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:38:34,552 - INFO - Executing GSHandler.read
+2023-06-15 01:38:35,813 - INFO - Finished executing GSHandler.read
+2023-06-15 01:38:35,814 - INFO - Function GSHandler.read took 1.261397361755371 seconds to run.
+2023-06-15 01:38:35,815 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:38:37,654 - INFO - Starting job f61eec5b-ad56-4c53-beaf-536fbda77304 to ingest data
+2023-06-15 01:38:40,953 - INFO - Job finished.
+2023-06-15 01:38:40,953 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:38:40,954 - INFO - Function GSHandler.push_data_to_big_query took 5.1397058963775635 seconds to run.
+2023-06-15 01:38:40,954 - INFO - Executing LogWriter.write_row
+2023-06-15 01:38:40,955 - INFO - Executing GSHandler.write
+2023-06-15 01:38:41,849 - INFO - Finished executing GSHandler.write
+2023-06-15 01:38:41,850 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:38:41,857 - INFO - Finished executing JobManager.run
+2023-06-15 01:40:05,518 - INFO - Executing GSHandler.read
+2023-06-15 01:40:06,694 - INFO - Finished executing GSHandler.read
+2023-06-15 01:40:06,695 - INFO - Function GSHandler.read took 1.1771807670593262 seconds to run.
+2023-06-15 01:40:20,671 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:40:20,672 - INFO - Executing GSHandler.read
+2023-06-15 01:40:21,435 - INFO - Finished executing GSHandler.read
+2023-06-15 01:40:21,436 - INFO - Function GSHandler.read took 0.7642316818237305 seconds to run.
+2023-06-15 01:40:21,436 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:40:21,437 - INFO - Executing JobManager.run
+2023-06-15 01:40:21,437 - INFO - Executing GSHandler.read
+2023-06-15 01:40:22,098 - INFO - Executing LogWriter.write_row
+2023-06-15 01:40:22,099 - INFO - Executing GSHandler.write
+2023-06-15 01:40:23,017 - INFO - Finished executing GSHandler.write
+2023-06-15 01:40:23,018 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:40:23,021 - INFO - Executing GSHandler.read
+2023-06-15 01:40:23,972 - INFO - Finished executing GSHandler.read
+2023-06-15 01:40:23,973 - INFO - Function GSHandler.read took 0.9523522853851318 seconds to run.
+2023-06-15 01:40:23,973 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:40:25,763 - INFO - Starting job b13d5a1e-d4d3-4466-9fe9-d9609454fcc1 to ingest data
+2023-06-15 01:40:27,957 - INFO - Job finished.
+2023-06-15 01:40:27,958 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:40:27,958 - INFO - Function GSHandler.push_data_to_big_query took 3.9842820167541504 seconds to run.
+2023-06-15 01:40:27,959 - INFO - Executing LogWriter.write_row
+2023-06-15 01:40:27,959 - INFO - Executing GSHandler.write
+2023-06-15 01:40:28,825 - INFO - Finished executing GSHandler.write
+2023-06-15 01:40:28,825 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:40:28,826 - INFO - Executing GSHandler.read
+2023-06-15 01:40:30,132 - INFO - Finished executing GSHandler.read
+2023-06-15 01:40:30,132 - INFO - Function GSHandler.read took 1.3059289455413818 seconds to run.
+2023-06-15 01:40:30,133 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:40:31,977 - INFO - Starting job efa26e14-e591-420a-b64f-ca95aec19322 to ingest data
+2023-06-15 01:40:34,177 - INFO - Job finished.
+2023-06-15 01:40:34,178 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:40:34,179 - INFO - Function GSHandler.push_data_to_big_query took 4.045748949050903 seconds to run.
+2023-06-15 01:40:34,179 - INFO - Executing LogWriter.write_row
+2023-06-15 01:40:34,180 - INFO - Executing GSHandler.write
+2023-06-15 01:40:35,037 - INFO - Finished executing GSHandler.write
+2023-06-15 01:40:35,037 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:40:35,045 - INFO - Finished executing JobManager.run
+2023-06-15 01:41:02,437 - INFO - Executing GSHandler.read
+2023-06-15 01:41:03,240 - INFO - Finished executing GSHandler.read
+2023-06-15 01:41:03,240 - INFO - Function GSHandler.read took 0.8031654357910156 seconds to run.
+2023-06-15 01:41:13,251 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:41:13,252 - INFO - Executing GSHandler.read
+2023-06-15 01:41:14,041 - INFO - Finished executing GSHandler.read
+2023-06-15 01:41:14,042 - INFO - Function GSHandler.read took 0.7887594699859619 seconds to run.
+2023-06-15 01:41:14,042 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:41:15,506 - INFO - Executing JobManager.run
+2023-06-15 01:41:17,340 - INFO - Executing GSHandler.read
+2023-06-15 01:43:24,780 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:43:24,781 - INFO - Executing GSHandler.read
+2023-06-15 01:43:25,672 - INFO - Finished executing GSHandler.read
+2023-06-15 01:43:25,673 - INFO - Function GSHandler.read took 0.8912463188171387 seconds to run.
+2023-06-15 01:43:25,673 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:43:28,512 - INFO - Executing JobManager.run
+2023-06-15 01:43:30,821 - INFO - Executing GSHandler.read
+2023-06-15 01:43:35,122 - ERROR - Can not open the worksheet sheet1 with range of B:E
+2023-06-15 01:46:24,164 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:46:24,165 - INFO - Executing GSHandler.read
+2023-06-15 01:46:24,852 - INFO - Finished executing GSHandler.read
+2023-06-15 01:46:24,852 - INFO - Function GSHandler.read took 0.6875247955322266 seconds to run.
+2023-06-15 01:46:24,853 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:46:24,853 - INFO - Executing JobManager.run
+2023-06-15 01:46:24,853 - INFO - Executing GSHandler.read
+2023-06-15 01:46:25,627 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 01:46:25,627 - INFO - Executing LogWriter.write_row
+2023-06-15 01:46:25,628 - INFO - Executing GSHandler.write
+2023-06-15 01:46:26,608 - INFO - Finished executing GSHandler.write
+2023-06-15 01:46:26,609 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:46:26,611 - INFO - Executing GSHandler.read
+2023-06-15 01:46:28,808 - INFO - Finished executing GSHandler.read
+2023-06-15 01:46:28,808 - INFO - Function GSHandler.read took 2.1968743801116943 seconds to run.
+2023-06-15 01:46:28,809 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:46:30,572 - INFO - Starting job 9ee57f90-5f41-4067-961e-27376985946b to ingest data
+2023-06-15 01:49:07,492 - INFO - Executing ConfigLoader.__init__
+2023-06-15 01:49:07,492 - INFO - Executing GSHandler.read
+2023-06-15 01:49:08,344 - INFO - Finished executing GSHandler.read
+2023-06-15 01:49:08,344 - INFO - Function GSHandler.read took 0.8520462512969971 seconds to run.
+2023-06-15 01:49:08,345 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 01:49:08,345 - INFO - Executing JobManager.run
+2023-06-15 01:49:08,345 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:08,345 - INFO - Executing GSHandler.write
+2023-06-15 01:49:09,327 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:09,328 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:09,328 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:09,328 - INFO - Executing GSHandler.write
+2023-06-15 01:49:10,203 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:10,204 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:10,204 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:10,205 - INFO - Executing GSHandler.write
+2023-06-15 01:49:11,116 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:11,117 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:11,117 - INFO - Executing GSHandler.read
+2023-06-15 01:49:11,872 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 01:49:11,873 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:11,873 - INFO - Executing GSHandler.write
+2023-06-15 01:49:12,767 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:12,768 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:12,770 - INFO - Executing GSHandler.read
+2023-06-15 01:49:13,673 - INFO - Finished executing GSHandler.read
+2023-06-15 01:49:13,673 - INFO - Function GSHandler.read took 0.9025135040283203 seconds to run.
+2023-06-15 01:49:13,673 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:49:15,293 - INFO - Starting job 3f8a6f1b-5bd9-449e-8834-da4122a67f7d to ingest data
+2023-06-15 01:49:17,402 - INFO - Job finished.
+2023-06-15 01:49:17,403 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:49:17,403 - INFO - Function GSHandler.push_data_to_big_query took 3.7301995754241943 seconds to run.
+2023-06-15 01:49:17,404 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:17,404 - INFO - Executing GSHandler.write
+2023-06-15 01:49:18,290 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:18,290 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:18,291 - INFO - Executing GSHandler.read
+2023-06-15 01:49:19,551 - INFO - Finished executing GSHandler.read
+2023-06-15 01:49:19,551 - INFO - Function GSHandler.read took 1.2594399452209473 seconds to run.
+2023-06-15 01:49:19,552 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 01:49:21,598 - INFO - Starting job 6fdd92b9-7c38-4926-9fb1-6ef862e49017 to ingest data
+2023-06-15 01:49:24,424 - INFO - Job finished.
+2023-06-15 01:49:24,425 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 01:49:24,425 - INFO - Function GSHandler.push_data_to_big_query took 4.873208999633789 seconds to run.
+2023-06-15 01:49:24,425 - INFO - Executing LogWriter.write_row
+2023-06-15 01:49:24,425 - INFO - Executing GSHandler.write
+2023-06-15 01:49:25,303 - INFO - Finished executing GSHandler.write
+2023-06-15 01:49:25,304 - INFO - Finished executing LogWriter.write_row
+2023-06-15 01:49:25,311 - INFO - Finished executing JobManager.run
+2023-06-15 01:58:09,768 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:00:15,443 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:00:35,863 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:00:35,863 - INFO - Executing GSHandler.read_data
+2023-06-15 02:01:24,888 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:01:24,888 - INFO - Executing GSHandler.read_data
+2023-06-15 02:01:26,611 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:01:26,612 - INFO - Function GSHandler.read_data took 1.7236669063568115 seconds to run.
+2023-06-15 02:01:26,612 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:01:26,613 - INFO - Executing JobManager.run
+2023-06-15 02:01:26,613 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:26,613 - INFO - Executing GSHandler.write
+2023-06-15 02:01:27,630 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:27,631 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:27,631 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:27,631 - INFO - Executing GSHandler.write
+2023-06-15 02:01:28,479 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:28,479 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:28,480 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:28,480 - INFO - Executing GSHandler.write
+2023-06-15 02:01:29,349 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:29,350 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:29,350 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:29,351 - INFO - Executing GSHandler.write
+2023-06-15 02:01:30,212 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:30,213 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:30,213 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:30,213 - INFO - Executing GSHandler.write
+2023-06-15 02:01:31,093 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:31,093 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:31,094 - INFO - Executing LogWriter.write_row
+2023-06-15 02:01:31,094 - INFO - Executing GSHandler.write
+2023-06-15 02:01:31,910 - INFO - Finished executing GSHandler.write
+2023-06-15 02:01:31,910 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:01:31,911 - INFO - Finished executing JobManager.run
+2023-06-15 02:02:21,979 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:02:21,979 - INFO - Executing GSHandler.read_data
+2023-06-15 02:02:22,620 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:02:22,621 - INFO - Function GSHandler.read_data took 0.6417899131774902 seconds to run.
+2023-06-15 02:02:22,621 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:02:22,621 - INFO - Executing JobManager.run
+2023-06-15 02:02:22,622 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:22,622 - INFO - Executing GSHandler.write
+2023-06-15 02:02:23,539 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:23,540 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:23,540 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:23,540 - INFO - Executing GSHandler.write
+2023-06-15 02:02:24,395 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:24,396 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:24,396 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:24,396 - INFO - Executing GSHandler.write
+2023-06-15 02:02:25,240 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:25,241 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:25,241 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:25,242 - INFO - Executing GSHandler.write
+2023-06-15 02:02:26,099 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:26,099 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:26,100 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:26,100 - INFO - Executing GSHandler.write
+2023-06-15 02:02:26,974 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:26,974 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:26,975 - INFO - Executing LogWriter.write_row
+2023-06-15 02:02:26,975 - INFO - Executing GSHandler.write
+2023-06-15 02:02:27,809 - INFO - Finished executing GSHandler.write
+2023-06-15 02:02:27,809 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:02:27,809 - INFO - Finished executing JobManager.run
+2023-06-15 02:03:00,519 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:03:00,520 - INFO - Executing GSHandler.read_data
+2023-06-15 02:03:01,134 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:03:01,135 - INFO - Function GSHandler.read_data took 0.6149189472198486 seconds to run.
+2023-06-15 02:03:01,135 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:03:01,135 - INFO - Executing JobManager.run
+2023-06-15 02:03:01,136 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:01,136 - INFO - Executing GSHandler.write
+2023-06-15 02:03:02,092 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:02,092 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:02,093 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:02,093 - INFO - Executing GSHandler.write
+2023-06-15 02:03:02,961 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:02,961 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:02,962 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:02,962 - INFO - Executing GSHandler.write
+2023-06-15 02:03:03,770 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:03,771 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:03,771 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:03,772 - INFO - Executing GSHandler.write
+2023-06-15 02:03:04,564 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:04,564 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:04,565 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:04,565 - INFO - Executing GSHandler.write
+2023-06-15 02:03:05,452 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:05,452 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:05,453 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:05,453 - INFO - Executing GSHandler.write
+2023-06-15 02:03:06,198 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:06,198 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:06,199 - INFO - Finished executing JobManager.run
+2023-06-15 02:03:45,426 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:03:45,426 - INFO - Executing GSHandler.read_data
+2023-06-15 02:03:46,056 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:03:46,056 - INFO - Function GSHandler.read_data took 0.6304032802581787 seconds to run.
+2023-06-15 02:03:46,057 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:03:46,057 - INFO - Executing JobManager.run
+2023-06-15 02:03:46,057 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:46,058 - INFO - Executing GSHandler.write
+2023-06-15 02:03:46,984 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:46,985 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:46,985 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:46,985 - INFO - Executing GSHandler.write
+2023-06-15 02:03:47,833 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:47,833 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:47,834 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:47,834 - INFO - Executing GSHandler.write
+2023-06-15 02:03:48,657 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:48,658 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:48,658 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:48,659 - INFO - Executing GSHandler.write
+2023-06-15 02:03:49,342 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:49,342 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:49,343 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:49,343 - INFO - Executing GSHandler.write
+2023-06-15 02:03:50,051 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:50,051 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:50,052 - INFO - Executing LogWriter.write_row
+2023-06-15 02:03:50,052 - INFO - Executing GSHandler.write
+2023-06-15 02:03:50,823 - INFO - Finished executing GSHandler.write
+2023-06-15 02:03:50,824 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:03:50,824 - INFO - Finished executing JobManager.run
+2023-06-15 02:04:03,453 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:04:03,454 - INFO - Executing GSHandler.read_data
+2023-06-15 02:04:04,107 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:04:04,108 - INFO - Function GSHandler.read_data took 0.6537148952484131 seconds to run.
+2023-06-15 02:04:04,108 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:04:04,109 - INFO - Executing JobManager.run
+2023-06-15 02:04:04,109 - INFO - Executing LogWriter.write_row
+2023-06-15 02:04:04,109 - INFO - Executing GSHandler.write
+2023-06-15 02:04:05,011 - INFO - Finished executing GSHandler.write
+2023-06-15 02:04:05,012 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:04:05,012 - INFO - Executing LogWriter.write_row
+2023-06-15 02:04:05,013 - INFO - Executing GSHandler.write
+2023-06-15 02:04:05,901 - INFO - Finished executing GSHandler.write
+2023-06-15 02:04:05,901 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:04:05,902 - INFO - Executing LogWriter.write_row
+2023-06-15 02:04:05,902 - INFO - Executing GSHandler.write
+2023-06-15 02:04:06,773 - INFO - Finished executing GSHandler.write
+2023-06-15 02:04:06,773 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:06,297 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:05:06,297 - INFO - Executing GSHandler.read_data
+2023-06-15 02:05:07,087 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:05:07,087 - INFO - Function GSHandler.read_data took 0.7899484634399414 seconds to run.
+2023-06-15 02:05:07,088 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:05:07,088 - INFO - Executing JobManager.run
+2023-06-15 02:05:07,088 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:07,089 - INFO - Executing GSHandler.write
+2023-06-15 02:05:07,929 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:07,930 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:07,930 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:07,931 - INFO - Executing GSHandler.write
+2023-06-15 02:05:08,758 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:08,759 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:08,759 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:08,759 - INFO - Executing GSHandler.write
+2023-06-15 02:05:09,608 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:09,609 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:09,609 - INFO - Executing GSHandler.read_data
+2023-06-15 02:05:10,286 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:05:10,287 - ERROR - local variable 'data' referenced before assignment
+2023-06-15 02:05:10,287 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:10,288 - INFO - Executing GSHandler.write
+2023-06-15 02:05:11,198 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:11,198 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:11,201 - INFO - Executing GSHandler.read_data
+2023-06-15 02:05:13,825 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:05:13,825 - INFO - Function GSHandler.read_data took 2.624408483505249 seconds to run.
+2023-06-15 02:05:13,826 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:13,826 - INFO - Executing GSHandler.write
+2023-06-15 02:05:14,568 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:14,569 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:14,569 - INFO - Executing GSHandler.read_data
+2023-06-15 02:05:16,512 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:05:16,512 - INFO - Function GSHandler.read_data took 1.943364143371582 seconds to run.
+2023-06-15 02:05:16,513 - INFO - Executing LogWriter.write_row
+2023-06-15 02:05:16,513 - INFO - Executing GSHandler.write
+2023-06-15 02:05:17,331 - INFO - Finished executing GSHandler.write
+2023-06-15 02:05:17,332 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:05:17,338 - INFO - Finished executing JobManager.run
+2023-06-15 02:09:17,546 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:09:17,546 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:18,229 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:18,229 - INFO - Function GSHandler.read_data took 0.6830065250396729 seconds to run.
+2023-06-15 02:09:18,230 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:09:18,230 - INFO - Executing JobManager.run
+2023-06-15 02:09:18,230 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:18,231 - INFO - Executing GSHandler.write
+2023-06-15 02:09:19,123 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:19,123 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:19,123 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:19,124 - INFO - Executing GSHandler.write
+2023-06-15 02:09:19,955 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:19,956 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:19,956 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:19,956 - INFO - Executing GSHandler.write
+2023-06-15 02:09:20,763 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:20,763 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:20,764 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:21,512 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:09:21,515 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:21,515 - INFO - Function GSHandler.read_data took 0.7509782314300537 seconds to run.
+2023-06-15 02:09:21,516 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:21,516 - INFO - Executing GSHandler.write
+2023-06-15 02:09:22,200 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:22,200 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:22,200 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:23,190 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:23,191 - INFO - Function GSHandler.read_data took 0.9909708499908447 seconds to run.
+2023-06-15 02:09:23,191 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:23,191 - INFO - Executing GSHandler.write
+2023-06-15 02:09:23,992 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:23,992 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:23,993 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:25,561 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:25,561 - INFO - Function GSHandler.read_data took 1.5683104991912842 seconds to run.
+2023-06-15 02:09:25,562 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:25,562 - INFO - Executing GSHandler.write
+2023-06-15 02:09:26,431 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:26,431 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:26,439 - INFO - Finished executing JobManager.run
+2023-06-15 02:09:46,494 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:09:46,494 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:47,123 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:47,124 - INFO - Function GSHandler.read_data took 0.6301562786102295 seconds to run.
+2023-06-15 02:09:47,124 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:09:47,125 - INFO - Executing JobManager.run
+2023-06-15 02:09:47,125 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:47,125 - INFO - Executing GSHandler.write
+2023-06-15 02:09:48,065 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:48,065 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:48,066 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:48,066 - INFO - Executing GSHandler.write
+2023-06-15 02:09:48,898 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:48,899 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:48,899 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:48,899 - INFO - Executing GSHandler.write
+2023-06-15 02:09:49,704 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:49,705 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:49,705 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:50,176 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:09:50,178 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:50,178 - INFO - Function GSHandler.read_data took 0.47331690788269043 seconds to run.
+2023-06-15 02:09:50,179 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:50,179 - INFO - Executing GSHandler.write
+2023-06-15 02:09:51,032 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:51,032 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:51,033 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:51,881 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:51,881 - INFO - Function GSHandler.read_data took 0.8474793434143066 seconds to run.
+2023-06-15 02:09:51,881 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:51,882 - INFO - Executing GSHandler.write
+2023-06-15 02:09:52,727 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:52,727 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:52,728 - INFO - Executing GSHandler.read_data
+2023-06-15 02:09:54,509 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:09:54,509 - INFO - Function GSHandler.read_data took 1.7809319496154785 seconds to run.
+2023-06-15 02:09:54,510 - INFO - Executing LogWriter.write_row
+2023-06-15 02:09:54,510 - INFO - Executing GSHandler.write
+2023-06-15 02:09:55,363 - INFO - Finished executing GSHandler.write
+2023-06-15 02:09:55,363 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:09:55,369 - INFO - Finished executing JobManager.run
+2023-06-15 02:11:03,263 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:11:03,264 - INFO - Executing GSHandler.read_data
+2023-06-15 02:11:04,114 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:11:04,115 - INFO - Function GSHandler.read_data took 0.8510148525238037 seconds to run.
+2023-06-15 02:11:04,115 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:11:04,115 - INFO - Executing JobManager.run
+2023-06-15 02:11:04,116 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:04,116 - INFO - Executing GSHandler.write
+2023-06-15 02:11:04,965 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:04,965 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:04,965 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:04,966 - INFO - Executing GSHandler.write
+2023-06-15 02:11:05,806 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:05,807 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:05,807 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:05,807 - INFO - Executing GSHandler.write
+2023-06-15 02:11:06,592 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:06,592 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:06,593 - INFO - Executing GSHandler.read_data
+2023-06-15 02:11:07,357 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:11:07,358 - ERROR - sheet1
+2023-06-15 02:11:07,358 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:07,358 - INFO - Executing GSHandler.write
+2023-06-15 02:11:08,191 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:08,192 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:08,195 - INFO - Executing GSHandler.read_data
+2023-06-15 02:11:09,157 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:11:09,157 - INFO - Function GSHandler.read_data took 0.9619705677032471 seconds to run.
+2023-06-15 02:11:09,158 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:09,158 - INFO - Executing GSHandler.write
+2023-06-15 02:11:09,978 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:09,979 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:09,979 - INFO - Executing GSHandler.read_data
+2023-06-15 02:11:11,535 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:11:11,535 - INFO - Function GSHandler.read_data took 1.5559632778167725 seconds to run.
+2023-06-15 02:11:11,536 - INFO - Executing LogWriter.write_row
+2023-06-15 02:11:11,536 - INFO - Executing GSHandler.write
+2023-06-15 02:11:12,353 - INFO - Finished executing GSHandler.write
+2023-06-15 02:11:12,353 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:11:12,361 - INFO - Finished executing JobManager.run
+2023-06-15 02:12:00,065 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:12:00,066 - INFO - Executing GSHandler.read_data
+2023-06-15 02:12:00,774 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:12:00,775 - INFO - Function GSHandler.read_data took 0.70884108543396 seconds to run.
+2023-06-15 02:12:00,775 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:12:00,775 - INFO - Executing JobManager.run
+2023-06-15 02:12:00,776 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:00,776 - INFO - Executing GSHandler.write
+2023-06-15 02:12:01,636 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:01,637 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:01,637 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:01,637 - INFO - Executing GSHandler.write
+2023-06-15 02:12:02,460 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:02,460 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:02,460 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:02,461 - INFO - Executing GSHandler.write
+2023-06-15 02:12:03,198 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:03,199 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:03,199 - INFO - Executing GSHandler.read_data
+2023-06-15 02:12:03,959 - ERROR - Can not open the worksheet sheet1 with range of B:E in https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:12:03,959 - ERROR - sheet1
+2023-06-15 02:12:03,959 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:03,959 - INFO - Executing GSHandler.write
+2023-06-15 02:12:04,806 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:04,807 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:04,809 - INFO - Executing GSHandler.read_data
+2023-06-15 02:12:05,780 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:12:05,780 - INFO - Function GSHandler.read_data took 0.9717285633087158 seconds to run.
+2023-06-15 02:12:05,781 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:12:07,607 - INFO - Starting job 7ffb0981-2ddb-4127-8100-5887986c26e3 to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:12:09,500 - INFO - Job finished.
+2023-06-15 02:12:09,501 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:12:09,501 - INFO - Function GSHandler.push_data_to_big_query took 3.719893455505371 seconds to run.
+2023-06-15 02:12:09,501 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:09,502 - INFO - Executing GSHandler.write
+2023-06-15 02:12:10,332 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:10,333 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:10,333 - INFO - Executing GSHandler.read_data
+2023-06-15 02:12:11,889 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:12:11,890 - INFO - Function GSHandler.read_data took 1.556467056274414 seconds to run.
+2023-06-15 02:12:11,890 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:12:13,800 - INFO - Starting job f7841615-0ea7-46bc-8136-262b4036069f to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:12:17,310 - INFO - Job finished.
+2023-06-15 02:12:17,310 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:12:17,311 - INFO - Function GSHandler.push_data_to_big_query took 5.421327590942383 seconds to run.
+2023-06-15 02:12:17,311 - INFO - Executing LogWriter.write_row
+2023-06-15 02:12:17,311 - INFO - Executing GSHandler.write
+2023-06-15 02:12:18,178 - INFO - Finished executing GSHandler.write
+2023-06-15 02:12:18,179 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:12:18,187 - INFO - Finished executing JobManager.run
+2023-06-15 02:13:15,548 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:13:15,549 - INFO - Executing GSHandler.read_data
+2023-06-15 02:13:16,210 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:13:16,210 - INFO - Function GSHandler.read_data took 0.661179780960083 seconds to run.
+2023-06-15 02:13:16,210 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:13:16,211 - INFO - Executing JobManager.run
+2023-06-15 02:13:16,211 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:16,211 - INFO - Executing GSHandler.write
+2023-06-15 02:13:17,027 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:17,028 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:17,028 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:17,029 - INFO - Executing GSHandler.write
+2023-06-15 02:13:17,753 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:17,753 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:17,753 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:17,754 - INFO - Executing GSHandler.write
+2023-06-15 02:13:18,523 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:18,523 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:18,524 - INFO - Executing GSHandler.read_data
+2023-06-15 02:13:19,499 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:13:19,499 - INFO - Function GSHandler.read_data took 0.9749722480773926 seconds to run.
+2023-06-15 02:13:19,500 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:21,211 - INFO - Starting job 248be42c-98f1-41c5-9ee5-e2bb2989779d to ingest https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:13:23,706 - INFO - Job finished.
+2023-06-15 02:13:23,707 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:23,707 - INFO - Function GSHandler.push_data_to_big_query took 4.206878185272217 seconds to run.
+2023-06-15 02:13:23,708 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:23,708 - INFO - Executing GSHandler.write
+2023-06-15 02:13:24,670 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:24,670 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:24,671 - INFO - Executing GSHandler.read_data
+2023-06-15 02:13:25,607 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:13:25,608 - INFO - Function GSHandler.read_data took 0.9369723796844482 seconds to run.
+2023-06-15 02:13:25,608 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:27,288 - INFO - Starting job 96e8fe32-6294-4f0b-91a4-2222119a13a0 to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:13:29,809 - INFO - Job finished.
+2023-06-15 02:13:29,810 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:29,810 - INFO - Function GSHandler.push_data_to_big_query took 4.202108383178711 seconds to run.
+2023-06-15 02:13:29,810 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:29,811 - INFO - Executing GSHandler.write
+2023-06-15 02:13:30,805 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:30,806 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:30,806 - INFO - Executing GSHandler.read_data
+2023-06-15 02:13:32,293 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:13:32,293 - INFO - Function GSHandler.read_data took 1.4874720573425293 seconds to run.
+2023-06-15 02:13:32,294 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:33,956 - INFO - Starting job 29dcb839-b6fa-406d-995d-397b4cd90331 to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:13:36,609 - INFO - Job finished.
+2023-06-15 02:13:36,609 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:13:36,609 - INFO - Function GSHandler.push_data_to_big_query took 4.314355134963989 seconds to run.
+2023-06-15 02:13:36,610 - INFO - Executing LogWriter.write_row
+2023-06-15 02:13:36,610 - INFO - Executing GSHandler.write
+2023-06-15 02:13:37,461 - INFO - Finished executing GSHandler.write
+2023-06-15 02:13:37,461 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:13:37,469 - INFO - Finished executing JobManager.run
+2023-06-15 02:15:33,839 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:15:33,840 - INFO - Executing GSHandler.read_data
+2023-06-15 02:15:34,773 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:15:34,774 - INFO - Function GSHandler.read_data took 0.933135986328125 seconds to run.
+2023-06-15 02:15:34,774 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:15:34,774 - INFO - Executing JobManager.run
+2023-06-15 02:15:34,775 - INFO - Executing LogWriter.write_row
+2023-06-15 02:15:34,775 - INFO - Executing GSHandler.write
+2023-06-15 02:15:35,559 - INFO - Finished executing GSHandler.write
+2023-06-15 02:15:35,560 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:15:35,560 - INFO - Executing LogWriter.write_row
+2023-06-15 02:15:35,561 - INFO - Executing GSHandler.write
+2023-06-15 02:15:36,389 - INFO - Finished executing GSHandler.write
+2023-06-15 02:15:36,389 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:15:36,390 - INFO - Executing LogWriter.write_row
+2023-06-15 02:15:36,390 - INFO - Executing GSHandler.write
+2023-06-15 02:15:37,150 - INFO - Finished executing GSHandler.write
+2023-06-15 02:15:37,151 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:17:44,617 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:17:44,617 - INFO - Executing GSHandler.read_data
+2023-06-15 02:17:45,272 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:17:45,273 - INFO - Function GSHandler.read_data took 0.6554439067840576 seconds to run.
+2023-06-15 02:17:45,273 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:17:45,273 - INFO - Executing JobManager.run
+2023-06-15 02:17:45,274 - INFO - Executing LogWriter.write_row
+2023-06-15 02:17:45,274 - INFO - Executing GSHandler.write
+2023-06-15 02:17:46,080 - INFO - Finished executing GSHandler.write
+2023-06-15 02:17:46,081 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:17:46,081 - INFO - Executing LogWriter.write_row
+2023-06-15 02:17:46,082 - INFO - Executing GSHandler.write
+2023-06-15 02:17:46,849 - INFO - Finished executing GSHandler.write
+2023-06-15 02:17:46,849 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:17:46,850 - INFO - Executing LogWriter.write_row
+2023-06-15 02:17:46,850 - INFO - Executing GSHandler.write
+2023-06-15 02:17:47,422 - INFO - Finished executing GSHandler.write
+2023-06-15 02:17:47,423 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:28,815 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:31:28,816 - INFO - Executing GSHandler.read_data
+2023-06-15 02:31:29,711 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:31:29,712 - INFO - Function GSHandler.read_data took 0.8963508605957031 seconds to run.
+2023-06-15 02:31:29,712 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:31:29,712 - INFO - Executing JobManager.run
+2023-06-15 02:31:29,712 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:29,713 - INFO - Executing GSHandler.write
+2023-06-15 02:31:30,689 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:30,690 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:30,690 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:30,691 - INFO - Executing GSHandler.write
+2023-06-15 02:31:31,521 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:31,521 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:31,522 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:31,522 - INFO - Executing GSHandler.write
+2023-06-15 02:31:32,339 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:32,340 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:32,340 - INFO - Executing GSHandler.read_data
+2023-06-15 02:31:35,696 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:31:35,696 - INFO - Function GSHandler.read_data took 3.3555796146392822 seconds to run.
+2023-06-15 02:31:35,696 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:31:37,552 - INFO - Starting job 9ae56ad7-cb02-4965-b379-29795760305d to ingest https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:31:39,523 - INFO - Job finished.
+2023-06-15 02:31:39,523 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:31:39,523 - INFO - Function GSHandler.push_data_to_big_query took 3.826561450958252 seconds to run.
+2023-06-15 02:31:39,524 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:39,524 - INFO - Executing GSHandler.write
+2023-06-15 02:31:40,396 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:40,396 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:40,397 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:40,397 - INFO - Executing GSHandler.write
+2023-06-15 02:31:41,234 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:41,234 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:41,235 - INFO - Executing LogWriter.write_row
+2023-06-15 02:31:41,235 - INFO - Executing GSHandler.write
+2023-06-15 02:31:42,075 - INFO - Finished executing GSHandler.write
+2023-06-15 02:31:42,075 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:31:42,076 - INFO - Finished executing JobManager.run
+2023-06-15 02:32:10,706 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:32:10,706 - INFO - Executing GSHandler.read_data
+2023-06-15 02:32:11,356 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:32:11,356 - INFO - Function GSHandler.read_data took 0.6502225399017334 seconds to run.
+2023-06-15 02:32:11,357 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:32:11,357 - INFO - Executing JobManager.run
+2023-06-15 02:32:11,357 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:11,358 - INFO - Executing GSHandler.write
+2023-06-15 02:32:12,183 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:12,184 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:12,184 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:12,184 - INFO - Executing GSHandler.write
+2023-06-15 02:32:12,956 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:12,957 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:12,957 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:12,957 - INFO - Executing GSHandler.write
+2023-06-15 02:32:13,809 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:13,809 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:13,810 - INFO - Executing GSHandler.read_data
+2023-06-15 02:32:15,014 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:32:15,014 - INFO - Function GSHandler.read_data took 1.2039711475372314 seconds to run.
+2023-06-15 02:32:15,015 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:32:17,649 - INFO - Starting job e91cb87b-03d1-4df3-b97f-8a404e8024e5 to ingest https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:32:20,921 - INFO - Job finished.
+2023-06-15 02:32:20,921 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:32:20,922 - INFO - Function GSHandler.push_data_to_big_query took 5.90687894821167 seconds to run.
+2023-06-15 02:32:20,922 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:20,922 - INFO - Executing GSHandler.write
+2023-06-15 02:32:21,845 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:21,846 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:21,846 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:21,847 - INFO - Executing GSHandler.write
+2023-06-15 02:32:22,576 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:22,576 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:22,577 - INFO - Executing GSHandler.read_data
+2023-06-15 02:32:25,772 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:32:25,773 - INFO - Function GSHandler.read_data took 3.1955127716064453 seconds to run.
+2023-06-15 02:32:25,773 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:32:27,810 - INFO - Starting job 3cb6c946-007a-47a0-afb9-1fceaf1574c1 to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:32:31,621 - INFO - Job finished.
+2023-06-15 02:32:31,622 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:32:31,622 - INFO - Function GSHandler.push_data_to_big_query took 5.849362373352051 seconds to run.
+2023-06-15 02:32:31,622 - INFO - Executing LogWriter.write_row
+2023-06-15 02:32:31,623 - INFO - Executing GSHandler.write
+2023-06-15 02:32:32,478 - INFO - Finished executing GSHandler.write
+2023-06-15 02:32:32,479 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:32:32,486 - INFO - Finished executing JobManager.run
+2023-06-15 02:41:49,257 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:41:49,258 - INFO - Executing GSHandler.read_data
+2023-06-15 02:41:50,065 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:41:50,065 - INFO - Function GSHandler.read_data took 0.8075587749481201 seconds to run.
+2023-06-15 02:41:50,066 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:41:50,066 - INFO - Executing JobManager.run
+2023-06-15 02:41:50,067 - INFO - Executing LogWriter.write_row
+2023-06-15 02:41:50,067 - INFO - Executing GSHandler.write
+2023-06-15 02:41:51,033 - INFO - Finished executing GSHandler.write
+2023-06-15 02:41:51,034 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:41:51,034 - INFO - Executing LogWriter.write_row
+2023-06-15 02:41:51,035 - INFO - Executing GSHandler.write
+2023-06-15 02:41:51,886 - INFO - Finished executing GSHandler.write
+2023-06-15 02:41:51,886 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:41:51,887 - INFO - Executing LogWriter.write_row
+2023-06-15 02:41:51,887 - INFO - Executing GSHandler.write
+2023-06-15 02:41:52,790 - INFO - Finished executing GSHandler.write
+2023-06-15 02:41:52,791 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:41:52,792 - INFO - Executing GSHandler.read_data
+2023-06-15 02:41:56,397 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:41:56,397 - INFO - Function GSHandler.read_data took 3.604945421218872 seconds to run.
+2023-06-15 02:41:56,398 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:41:58,163 - INFO - Starting job e94cf077-55d1-4b64-8cee-d83727ed60d1 to ingest https://docs.google.com/spreadsheets/d/1960hlROxAPtsq5hgliF4hSzeZ90Fd-ZHwm6wmWN2y-U/edit
+2023-06-15 02:42:00,211 - INFO - Job finished.
+2023-06-15 02:42:00,211 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:42:00,212 - INFO - Function GSHandler.push_data_to_big_query took 3.8139567375183105 seconds to run.
+2023-06-15 02:42:00,212 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:00,213 - INFO - Executing GSHandler.write
+2023-06-15 02:42:01,080 - INFO - Finished executing GSHandler.write
+2023-06-15 02:42:01,080 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:42:01,081 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:01,081 - INFO - Executing GSHandler.write
+2023-06-15 02:42:01,949 - INFO - Finished executing GSHandler.write
+2023-06-15 02:42:01,949 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:42:01,950 - INFO - Executing GSHandler.read_data
+2023-06-15 02:42:04,775 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:42:04,775 - INFO - Function GSHandler.read_data took 2.8244616985321045 seconds to run.
+2023-06-15 02:42:04,776 - INFO - Executing GSHandler.push_data_to_big_query
+2023-06-15 02:42:06,774 - INFO - Starting job db5e6369-ce09-4344-a072-921f9be66bc3 to ingest https://docs.google.com/spreadsheets/d/1xYNatvwODV7C-BqfB8zXddJ5DNZwRhb8Nfn1mXoa2ek/edit#gid=1107305079
+2023-06-15 02:42:08,884 - INFO - Job finished.
+2023-06-15 02:42:08,885 - INFO - Finished executing GSHandler.push_data_to_big_query
+2023-06-15 02:42:08,885 - INFO - Function GSHandler.push_data_to_big_query took 4.109493970870972 seconds to run.
+2023-06-15 02:42:08,886 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:08,886 - INFO - Executing GSHandler.write
+2023-06-15 02:42:09,575 - INFO - Finished executing GSHandler.write
+2023-06-15 02:42:09,576 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:42:09,583 - INFO - Finished executing JobManager.run
+2023-06-15 02:42:13,273 - INFO - Executing ConfigLoader.__init__
+2023-06-15 02:42:13,274 - INFO - Executing GSHandler.read_data
+2023-06-15 02:42:14,221 - INFO - Finished executing GSHandler.read_data
+2023-06-15 02:42:14,222 - INFO - Function GSHandler.read_data took 0.9476990699768066 seconds to run.
+2023-06-15 02:42:14,222 - INFO - Finished executing ConfigLoader.__init__
+2023-06-15 02:42:14,223 - INFO - Executing JobManager.run
+2023-06-15 02:42:14,223 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:14,224 - INFO - Executing GSHandler.write
+2023-06-15 02:42:15,099 - INFO - Finished executing GSHandler.write
+2023-06-15 02:42:15,100 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:42:15,101 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:15,101 - INFO - Executing GSHandler.write
+2023-06-15 02:42:15,851 - INFO - Finished executing GSHandler.write
+2023-06-15 02:42:15,851 - INFO - Finished executing LogWriter.write_row
+2023-06-15 02:42:15,852 - INFO - Executing LogWriter.write_row
+2023-06-15 02:42:15,852 - INFO - Executing GSHandler.write
