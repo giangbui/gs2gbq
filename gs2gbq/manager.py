@@ -47,19 +47,19 @@ class JobManager:
         self.log_handler.write_row([""])
         self.log_handler.write_row([f"NEW RUN on {datetime.now()}"])
         self.log_handler.write_row([""])
-        
-        config_check_result = self.job_config_handler.sanity_check()        
+
+        config_check_result = self.job_config_handler.sanity_check()
         if config_check_result.outcome == FAIL:
             self.log_handler.write_row(config_check_result.msg)
             return
 
         cfg = self.job_config_handler.config
         for _, row in cfg.iterrows():
-            today = datetime.today()            
+            today = datetime.today()
             # Get the current date
             current_date = date.today()
 
-            if row["schedule"] != "d" :
+            if row["schedule"] != "d":
                 # if scheduled weekly, only run on Monday
                 if row["schedule"] == "w" and current_date.weekday() != 0:
                     self.log_handler.write_row(
@@ -74,14 +74,14 @@ class JobManager:
                     )
                     continue
 
-                days = [int(d) for d in row['schedule'].split(",")]
+                days = [int(d) for d in row["schedule"].split(",")]
                 if current_date.day not in days:
                     self.log_handler.write_row(
                         [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
                     )
                     continue
 
-            try:                
+            try:
                 gs_handler = GSHandler(row["gs"], row["sheet"], row["range"])
                 df = gs_handler.read_data()
                 gs_handler.push_data_to_big_query(df, row["table"])

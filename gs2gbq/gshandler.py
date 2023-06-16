@@ -26,7 +26,7 @@ logger.setLevel(logging.DEBUG)  # Set the desired log level
 
 
 class GSHandler:
-    def __init__(self, gs_url: str, sheet: str, range:str=None) -> None:
+    def __init__(self, gs_url: str, sheet: str, range: str = None) -> None:
         self.url = gs_url
         self.sheet_name = sheet
         self.sheet_range = range
