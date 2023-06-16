@@ -6,7 +6,7 @@ from typing import Any
 import utils
 from conf import CREDENTIAL_FILE, JOB_CONFIG_FILE, LOG_FILE
 from gshandler import GSHandler
-from jobconfig import ConfigLoader, configCheck, PAS, FAIL
+from jobconfig import ConfigLoader, configCheck, PASS, FAIL
 
 import logging.config
 

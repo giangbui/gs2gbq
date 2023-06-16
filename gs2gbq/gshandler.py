@@ -26,15 +26,15 @@ logger.setLevel(logging.DEBUG)  # Set the desired log level
 
 
 class GSHandler:
-    def __init__(self, gs_url: str, sheet: str, range: str = None) -> None:
+    def __init__(self, gs_url: str, sheet: str, ranges: str = None) -> None:
         self.url = gs_url
         self.sheet_name = sheet
-        self.sheet_range = range
+        self.sheet_ranges = [r.strip() for r in ranges.split(",")] if ranges else [None]
         self.credential_file = CREDENTIAL_FILE
 
     @utils.timing_decorator
     @utils.log_execution
-    def read_data(self):
+    def read_data(self, starting_row: str=2):
         def _helper(column):
             column = column.strip()
             for c in ["/", " ", ":", ";", "-", "!", "?", "\\"]:
@@ -43,23 +43,28 @@ class GSHandler:
 
         gc = gspread.service_account(filename=self.credential_file)
         sh = gc.open_by_url(self.url)
-        try:
-            data = sh.worksheet(f"{self.sheet_name}").get(self.sheet_range)
-        except gspread.exceptions.APIError as e:
-            logging.error(
-                f"Can not open the worksheet {self.sheet_name} with range of {self.sheet_range} in {self.url}"
-            )
-            raise
-        except Exception as e:
-            logging.error(
-                f"Can not open the worksheet {self.sheet_name} with range of {self.sheet_range} in {self.url}"
-            )
-            raise
+        
+        df = pd.DataFrame()
+        for range in self.sheet_ranges:
+            try:
+                if ":" not in range:
+                    range = f"{range}:{range}"
+                data = sh.worksheet(f"{self.sheet_name}").get(range)
+            except gspread.exceptions.APIError as e:
+                logging.error(
+                    f"Can not open the worksheet {self.sheet_name} with range of {range} in {self.url}"
+                )
+                raise
+            except Exception as e:
+                logging.error(
+                    f"Can not open the worksheet {self.sheet_name} with range of {range} in {self.url}"
+                )
+                raise
 
-        df = pd.DataFrame(data)
+            df = pd.concat([df, pd.DataFrame(data)], axis=1)
         headers = df.iloc[0]
 
-        df = df[1:]
+        df = df[starting_row-1:]
         df.columns = [_helper(h) for h in headers]
 
         return df

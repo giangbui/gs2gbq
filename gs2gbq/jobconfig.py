@@ -29,7 +29,7 @@ PASS = True
 FAIL = False
 
 JOB_CONFIG_SHEET = "jobs"
-DEFAULT_CONFIG_RANGE = "A:G"
+DEFAULT_CONFIG_RANGE = "A:H"
 
 
 class configCheck:
@@ -64,9 +64,10 @@ class ConfigLoader:
             "schedule",
             "job_name",
             "sheet",
+            "startingrow"
         }:
             msg.append(
-                "The config file should contain gs, table, job_id, range, schedule, job_name, sheet as columns"
+                "The config file should contain gs, table, job_id, range, schedule, job_name, sheet, startingrow as columns"
             )
             return configCheck(FAIL, msg)
 
