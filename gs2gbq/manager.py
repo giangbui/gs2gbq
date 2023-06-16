@@ -83,7 +83,13 @@ class JobManager:
 
             try:
                 gs_handler = GSHandler(row["gs"], row["sheet"], row["range"])
-                df = gs_handler.read_data()
+                starting_row = 2
+                try:
+                    starting_row = int(row["startingrow"])
+                except Exception as e:
+                    pass
+
+                df = gs_handler.read_data(starting_row)
                 gs_handler.push_data_to_big_query(df, row["table"])
                 self.log_handler.write_row(
                     [row["gs"], row["sheet"], row["range"], "SUCCESS"]
