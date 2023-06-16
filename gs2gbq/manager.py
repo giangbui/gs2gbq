@@ -6,7 +6,7 @@ from typing import Any
 import utils
 from conf import CREDENTIAL_FILE, JOB_CONFIG_FILE, LOG_FILE
 from gshandler import GSHandler
-from jobconfig import ConfigLoader
+from jobconfig import ConfigLoader, configCheck, PAS, FAIL
 
 import logging.config
 
@@ -47,6 +47,12 @@ class JobManager:
         self.log_handler.write_row([""])
         self.log_handler.write_row([f"NEW RUN on {datetime.now()}"])
         self.log_handler.write_row([""])
+        
+        config_check_result = self.job_config_handler.sanity_check()        
+        if config_check_result.outcome == FAIL:
+            self.log_handler.write_row(config_check_result.msg)
+            return
+
         cfg = self.job_config_handler.config
         for _, row in cfg.iterrows():
             today = datetime.today()            
