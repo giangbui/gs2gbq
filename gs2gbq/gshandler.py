@@ -1,6 +1,12 @@
 import os
 import pandas as pd
 import gspread
+import time
+import random
+
+import backoff
+
+import google
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
@@ -34,6 +40,7 @@ class GSHandler:
 
     @utils.timing_decorator
     @utils.log_execution
+    @backoff.on_exception(backoff.expo, gspread.exceptions.APIError, max_tries=8, on_backoff=utils.backoff_hdlr, logger='logger')
     def read_data(self, starting_row: str=2):
         def _helper(column):
             column = column.strip()
@@ -43,81 +50,58 @@ class GSHandler:
 
         gc = gspread.service_account(filename=self.credential_file)
         sh = gc.open_by_url(self.url)
-        
+                
         df = pd.DataFrame()
-        for range in self.sheet_ranges:
-            try:
-                if ":" not in range:
-                    range = f"{range}:{range}"
-                data = sh.worksheet(f"{self.sheet_name}").get(range)
-            except gspread.exceptions.APIError as e:
-                logging.error(
-                    f"Can not open the worksheet {self.sheet_name} with range of {range} in {self.url}"
-                )
-                raise
-            except Exception as e:
-                logging.error(
-                    f"Can not open the worksheet {self.sheet_name} with range of {range} in {self.url}"
-                )
-                raise
-
+        for range in self.sheet_ranges:            
+            if ":" not in range:
+                range = f"{range}:{range}"
+            # data = get_worksheet_data(sh, self.sheet_name, range)         
+            data = sh.worksheet(f"{self.sheet_name}").get(range)  
             df = pd.concat([df, pd.DataFrame(data)], axis=1)
+        
         headers = df.iloc[0]
-
         df = df[starting_row-1:]
         df.columns = [_helper(h) for h in headers]
 
         return df
 
     @utils.log_execution
+    @backoff.on_exception(backoff.expo, gspread.exceptions.APIError, max_tries=8, on_backoff=utils.backoff_hdlr, logger="logger")
     def write(self, data=None):
-        gc = gspread.service_account(filename=self.credential_file)
+        gc = gspread.service_account(filename=self.credential_file)   
         sh = gc.open_by_url(self.url)
-        try:
-            ws = sh.worksheet(f"{self.sheet_name}")
-            ws.append_row(data)
-        except gspread.exceptions.APIError as e:
-            logging.error(
-                f"Can not write logs to the worksheet {self.url} in {sheet_name}"
-            )
-
+        ws = sh.worksheet(f"{self.sheet_name}")
+        ws.append_row(data)
+            
     @utils.timing_decorator
     @utils.log_execution
+    @backoff.on_exception(backoff.expo, google.api_core.exceptions.GoogleAPICallError, max_tries=8, on_backoff=utils.backoff_hdlr, logger="logger")
     def push_data_to_big_query(self, sheet_df, table_name):
         credentials = service_account.Credentials.from_service_account_file(
             self.credential_file,
             scopes=["https://www.googleapis.com/auth/cloud-platform"],
         )
 
+        client = bigquery.Client(
+            credentials=credentials, project=credentials.project_id
+        )
+        job_config = bigquery.LoadJobConfig()
+        job_config.autodetect = True
+        job_config.schema_update_options = [
+            bigquery.SchemaUpdateOption.ALLOW_FIELD_ADDITION
+        ]
+
+        # Delete existing table and re-create. Idiot approach!
         try:
-            client = bigquery.Client(
-                credentials=credentials, project=credentials.project_id
-            )
-            job_config = bigquery.LoadJobConfig()
-            job_config.autodetect = True
-            job_config.schema_update_options = [
-                bigquery.SchemaUpdateOption.ALLOW_FIELD_ADDITION
-            ]
-
-            # Delete existing table and re-create. Idiot approach!
-            try:
-                client.delete_table(f"{credentials.project_id}.{table_name}")
-            except Exception as e:
-                # Silently delete table if exist
-                pass
-
-            load_job = client.load_table_from_dataframe(
-                sheet_df, table_name, job_config=job_config
-            )
-            logging.info(f"Starting job {load_job.job_id} to ingest {self.url}")
-            load_job.result()
-            logging.info("Job finished.")
-
+            client.delete_table(f"{credentials.project_id}.{table_name}")
         except Exception as e:
-            logging.error(
-                f"An error occurred during data ingestion: {sheet_df} to {table_name}. Detail {str(e)}"
-            )
-            raise
+            # Silently delete table if exist
+            pass
 
-        finally:
-            client = None
+        load_job = client.load_table_from_dataframe(
+            sheet_df, table_name, job_config=job_config
+        )
+        logging.info(f"Starting job {load_job.job_id} to ingest {self.url}")
+        load_job.result()
+        logging.info("Job finished.")
+

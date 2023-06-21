@@ -55,9 +55,16 @@ class JobManager:
 
         cfg = self.job_config_handler.config
         for _, row in cfg.iterrows():
-            today = datetime.today()
             # Get the current date
             current_date = date.today()
+
+            if not row["schedule"]:
+                self.log_handler.write_row(
+                        [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
+                    )
+                continue
+
+            row["schedule"] = row["schedule"].strip()
 
             if row["schedule"] != "d":
                 # if scheduled weekly, only run on Monday
@@ -94,8 +101,8 @@ class JobManager:
                 self.log_handler.write_row(
                     [row["gs"], row["sheet"], row["range"], "SUCCESS"]
                 )
-            except Exception as e:
-                logging.error(f"{str(e)}")
+            except Exception as e:                
+                logging.error(f"Line {utils.lineno()}: {str(e)}")
                 self.log_handler.write_row(
                     [row["gs"], row["sheet"], row["range"], "FAIL"]
                 )

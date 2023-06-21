@@ -1,6 +1,9 @@
 import functools
 import time
+import random
+import inspect
 
+import gspread
 import smtplib
 import traceback
 from email.mime.text import MIMEText
@@ -65,3 +68,12 @@ def email_on_failure(sender_email, password, recipient_email):
         return wrapper
 
     return decorator
+
+
+def lineno():
+    return inspect.currentframe().f_back.f_lineno
+
+def backoff_hdlr(details):
+    print ("Backing off {wait:0.1f} seconds after {tries} tries "
+           "calling function {target} with args {args} and kwargs "
+           "{kwargs}".format(**details))
