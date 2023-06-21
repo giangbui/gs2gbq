@@ -66,7 +66,7 @@ class GSHandler:
         return df
 
     @utils.log_execution
-    @backoff.on_exception(backoff.expo, gspread.exceptions.APIError, max_tries=8, on_backoff=utils.backoff_hdlr, logger="logger")
+    @backoff.on_exception(backoff.expo, gspread.exceptions.APIError, max_tries=9, on_backoff=utils.backoff_hdlr, logger="logger")
     def write(self, data=None):
         gc = gspread.service_account(filename=self.credential_file)   
         sh = gc.open_by_url(self.url)
