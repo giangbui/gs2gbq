@@ -59,9 +59,9 @@ class JobManager:
             current_date = date.today()
 
             if not row["schedule"]:
-                self.log_handler.write_row(
-                        [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
-                    )
+                # self.log_handler.write_row(
+                #         [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
+                #     )
                 continue
 
             row["schedule"] = row["schedule"].strip()
@@ -69,23 +69,14 @@ class JobManager:
             if row["schedule"] != "d":
                 # if scheduled weekly, only run on Monday
                 if row["schedule"] == "w" and current_date.weekday() != 0:
-                    self.log_handler.write_row(
-                        [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
-                    )
                     continue
 
                 # if scheduled monthly, only run on the first date of the month
                 if row["schedule"] == "m" and current_date.day != 1:
-                    self.log_handler.write_row(
-                        [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
-                    )
                     continue
 
                 days = [int(d) for d in row["schedule"].split(",")]
-                if current_date.day not in days:
-                    self.log_handler.write_row(
-                        [row["gs"], row["sheet"], row["range"], "NOT SCHEDULED"]
-                    )
+                if current_date.day not in days:                    
                     continue
 
             try:
