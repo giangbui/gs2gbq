@@ -1,5 +1,6 @@
 import os
 from datetime import datetime, date
+import time
 
 from typing import Any
 
@@ -80,6 +81,7 @@ class JobManager:
                     continue
 
             try:
+                start_time = time.time()
                 gs_handler = GSHandler(row["gs"], row["sheet"], row["range"])
                 starting_row = 2
                 try:
@@ -89,9 +91,13 @@ class JobManager:
 
                 df = gs_handler.read_data(starting_row)
                 gs_handler.push_data_to_big_query(df, row["table"])
+
+                end_time = time.time()
+                
                 self.log_handler.write_row(
-                    [row["gs"], row["sheet"], row["range"], "SUCCESS"]
+                    [row["gs"], row["sheet"], row["range"], "SUCCESS", f"{end_time - start_time}"]
                 )
+                logging.info(f"Took {end_time - start_time} seconds to ingest {row['gs']}")
             except Exception as e:                
                 logging.error(f"Line {utils.lineno()}: {str(e)}")
                 self.log_handler.write_row(
