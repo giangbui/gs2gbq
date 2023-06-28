@@ -14,3 +14,8 @@ CREDENTIAL_FILE = os.path.join(current_directory, "google sheet import.json")
 JOB_CONFIG_FILE = "https://docs.google.com/spreadsheets/d/1yI6kAO8AHFRoTwlkh28Pyk3rRNxkYGkmz33qGMTdck4/edit?usp=sharing"
 # LOG_FILE = "https://docs.google.com/spreadsheets/d/1QU9JJXAXLEaHgz3By90c98ga5khoJni4XXiUuY-W0rA/edit?usp=sharing"
 LOG_FILE = "https://docs.google.com/spreadsheets/d/1ukzwx2sYDZdNhYk_bZSZAD41eBWdobf9_7pJXM-_UkE/edit?usp=sharing"
+
+
+# radar gs
+# JOB_CONFIG_FILE = "https://docs.google.com/spreadsheets/d/1vG1SpShp8MnAZ3RW8dqi4hEwJtSCFoe7GgB1kV6x2ms/edit?usp=sharing"
+# LOG_FILE = "https://docs.google.com/spreadsheets/d/1QU9JJXAXLEaHgz3By90c98ga5khoJni4XXiUuY-W0rA/edit?usp=sharing"
