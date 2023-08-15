@@ -96,11 +96,11 @@ class JobManager:
                     try:
                         # Try to convert to numeric
                         df[col] = pd.to_numeric(df[col])
-                    except ValueError:
+                    except Exception:
                         # If not numeric, try to convert to datetime
                         try:
                             df[col] = pd.to_datetime(df[col])
-                        except ValueError:
+                        except Exception:
                             pass  # If neither numeric nor datetime, leave as string
                         
                 gs_handler.push_data_to_big_query(df, row["table"])
