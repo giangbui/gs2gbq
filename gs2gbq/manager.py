@@ -3,6 +3,7 @@ from datetime import datetime, date
 import time
 
 from typing import Any
+import pandas as pd
 
 import utils
 from conf import CREDENTIAL_FILE, JOB_CONFIG_FILE, LOG_FILE
@@ -90,6 +91,18 @@ class JobManager:
                     pass
 
                 df = gs_handler.read_data(starting_row)
+                # Convert numeric columns to appropriate data types
+                for col in df.columns:
+                    try:
+                        # Try to convert to numeric
+                        df[col] = pd.to_numeric(df[col])
+                    except ValueError:
+                        # If not numeric, try to convert to datetime
+                        try:
+                            df[col] = pd.to_datetime(df[col])
+                        except ValueError:
+                            pass  # If neither numeric nor datetime, leave as string
+                        
                 gs_handler.push_data_to_big_query(df, row["table"])
 
                 end_time = time.time()
