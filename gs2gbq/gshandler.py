@@ -44,7 +44,7 @@ class GSHandler:
     def read_data(self, starting_row: str=2):
         def _helper(column):
             column = column.strip()
-            for c in ["/", " ", ":", ";", "-", "!", "?", "\\"]:
+            for c in ["/", " ", ":", ";", "-", "!", "?", "\\", "(", ")"]:
                 column = column.replace(c, "_")
             return column
 
