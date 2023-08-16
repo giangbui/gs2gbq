@@ -97,11 +97,15 @@ class GSHandler:
         except Exception as e:
             # Silently delete table if exist
             pass
+        
+        logging.info(f"Starting job to ingest {self.url}")
 
-        load_job = client.load_table_from_dataframe(
-            sheet_df, table_name, job_config=job_config
-        )
-        logging.info(f"Starting job {load_job.job_id} to ingest {self.url}")
-        load_job.result()
+        start =  0
+        while start < sheet_df.shape[0]:
+            load_job = client.load_table_from_dataframe(
+                sheet_df.iloc[start:start+500,:], table_name, job_config=job_config
+            )        
+            load_job.result()
+            start = start + 500
         logging.info("Job finished.")
 
