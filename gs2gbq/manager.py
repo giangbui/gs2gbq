@@ -77,7 +77,11 @@ class JobManager:
                 if row["schedule"] == "m" and current_date.day != 1:
                     continue
 
-                days = [int(d) for d in row["schedule"].split(",")]
+                try:
+                    days = [int(d) for d in row["schedule"].split(",")]                    
+                except Exception:
+                    days = []
+                
                 if current_date.day not in days:                    
                     continue
 
