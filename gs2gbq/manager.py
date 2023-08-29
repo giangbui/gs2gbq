@@ -2,6 +2,7 @@ import os
 from datetime import datetime, date
 import time
 
+from google.cloud import bigquery
 from typing import Any
 import pandas as pd
 
@@ -68,22 +69,26 @@ class JobManager:
 
             row["schedule"] = row["schedule"].strip()
 
-            if row["schedule"] != "d":
-                # if scheduled weekly, only run on Monday
-                if row["schedule"] == "w" and current_date.weekday() != 0:
-                    continue
-
-                # if scheduled monthly, only run on the first date of the month
-                if row["schedule"] == "m" and current_date.day != 1:
-                    continue
-
+            scheduled_to_run_today = False
+            if row["schedule"] == "d":
+                scheduled_to_run_today = True
+            elif row["schedule"] == "w" and current_date.weekday() == 0:
+                scheduled_to_run_today = True
+            elif row["schedule"] == "m" and current_date.day == 1:
+                scheduled_to_run_today = True
+            else:
                 try:
                     days = [int(d) for d in row["schedule"].split(",")]                    
                 except Exception:
-                    days = []
-                
-                if current_date.day not in days:                    
-                    continue
+                    days = []                
+                if current_date.day in days:  
+                    scheduled_to_run_today = True
+
+            if not scheduled_to_run_today:
+                continue
+
+            logging.info("====================================================================================================================")
+            logging.info(f"Starting jobid {row.job_id} to ingest {row.gs}")
 
             try:
                 start_time = time.time()
@@ -96,6 +101,7 @@ class JobManager:
 
                 df = gs_handler.read_data(starting_row)
                 # Convert numeric columns to appropriate data types
+                schema = []
                 for col in df.columns:
                     try:
                         # Try to convert to numeric
@@ -104,10 +110,10 @@ class JobManager:
                         # If not numeric, try to convert to datetime
                         try:
                             df[col] = pd.to_datetime(df[col])
-                        except Exception:
-                            pass  # If neither numeric nor datetime, leave as string
+                        except Exception:                            
+                            schema.append(bigquery.SchemaField( col,bigquery.enums.SqlTypeNames.STRING))
                         
-                gs_handler.push_data_to_big_query(df, row["table"])
+                gs_handler.push_data_to_big_query(df, row["table"], schema)
 
                 end_time = time.time()
                 
