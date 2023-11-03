@@ -67,13 +67,16 @@ class JobManager:
                 #     )
                 continue
 
-            row["schedule"] = row["schedule"].strip()
+            row["schedule"] = row["schedule"].strip().reolace(" ", "")
 
             scheduled_to_run_today = False
             if row["schedule"] == "d":
                 scheduled_to_run_today = True
-            elif row["schedule"] == "w" and current_date.weekday() == 0:
-                scheduled_to_run_today = True
+            elif any(day.lower() in row["schedule"].lower().split() for day in ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]):
+                wd = current_date.weekday()
+                dic_mapping = {0: "Mo", 1: "Tu", 2: "We", 3: "Th", 4: "Fr", 5: "Sa", 6: "Su"}
+                if dic_mapping[wd].lower() in row["schedule"].lower().split():
+                    scheduled_to_run_today = True
             elif row["schedule"] == "m" and current_date.day == 1:
                 scheduled_to_run_today = True
             else:
@@ -109,7 +112,8 @@ class JobManager:
                     except Exception:
                         # If not numeric, try to convert to datetime
                         try:
-                            df[col] = pd.to_datetime(df[col])
+                            df[col] = pd.to_datetime(df[col]).apply(lambda x: x.date())
+                            # df[col] = pd.to_date(df[col])
                         except Exception:                            
                             schema.append(bigquery.SchemaField( col,bigquery.enums.SqlTypeNames.STRING))
                         
