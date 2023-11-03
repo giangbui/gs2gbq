@@ -67,7 +67,7 @@ class JobManager:
                 #     )
                 continue
 
-            row["schedule"] = row["schedule"].strip().reolace(" ", "")
+            row["schedule"] = row["schedule"].strip().replace(" ", "")
 
             scheduled_to_run_today = False
             if row["schedule"] == "d":
