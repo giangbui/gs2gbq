@@ -75,7 +75,7 @@ class JobManager:
             elif any(day.lower() in row["schedule"].lower().split(",") for day in ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]):
                 wd = current_date.weekday()
                 dic_mapping = {0: "Mo", 1: "Tu", 2: "We", 3: "Th", 4: "Fr", 5: "Sa", 6: "Su"}
-                if dic_mapping[wd].lower() in row["schedule"].lower().split():
+                if dic_mapping[wd].lower() in row["schedule"].lower().split(","):
                     scheduled_to_run_today = True
             elif row["schedule"] == "m" and current_date.day == 1:
                 scheduled_to_run_today = True
