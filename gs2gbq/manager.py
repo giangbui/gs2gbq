@@ -112,8 +112,7 @@ class JobManager:
                     except Exception:
                         # If not numeric, try to convert to datetime
                         try:
-                            df[col] = pd.to_datetime(df[col]).apply(lambda x: x.date())
-                            # df[col] = pd.to_date(df[col])
+                            df[col] = pd.to_datetime(df[col])
                         except Exception:                            
                             schema.append(bigquery.SchemaField( col,bigquery.enums.SqlTypeNames.STRING))
                         
