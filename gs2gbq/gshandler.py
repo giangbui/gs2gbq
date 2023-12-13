@@ -106,11 +106,13 @@ class GSHandler:
             pass        
 
         start =  0
+        offset = 1000
         while start < sheet_df.shape[0]:
             load_job = client.load_table_from_dataframe(
-                sheet_df.iloc[start:start+500,:], table_name, job_config=job_config
+                sheet_df.iloc[start:start+offset,:], table_name, job_config=job_config
             )        
             load_job.result()
-            start = start + 500
+            start = start + offset
+            time.sleep(5)
         logging.info("Job finished.")
 
