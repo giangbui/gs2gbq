@@ -112,7 +112,7 @@ class JobManager:
                     except Exception:
                         # If not numeric, try to convert to datetime
                         try:
-                            df[col] = pd.to_datetime(df[col])
+                            df[col] = pd.to_date(df[col])
                         except Exception:                            
                             schema.append(bigquery.SchemaField( col,bigquery.enums.SqlTypeNames.STRING))
                         
@@ -121,13 +121,13 @@ class JobManager:
                 end_time = time.time()
                 
                 self.log_handler.write_row(
-                    [row["gs"], row["sheet"], row["range"], "SUCCESS", f"{end_time - start_time}"]
+                    [row["job_name"], row["gs"], row["sheet"], row["range"], "SUCCESS", f"{end_time - start_time}"]
                 )
                 logging.info(f"Took {end_time - start_time} seconds to ingest {row['gs']}")
             except Exception as e:                
                 logging.error(f"Line {utils.lineno()}: {str(e)}")
                 self.log_handler.write_row(
-                    [row["gs"], row["sheet"], row["range"], "FAIL"]
+                    [row["job_name"], row["gs"], row["sheet"], row["range"], "FAIL"]
                 )
 
 
