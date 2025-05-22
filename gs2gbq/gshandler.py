@@ -11,7 +11,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 
 import utils
-from conf import CREDENTIAL_FILE
+from conf import settings
 
 import logging.config
 
@@ -36,7 +36,7 @@ class GSHandler:
         self.url = gs_url
         self.sheet_name = sheet
         self.sheet_ranges = [r.strip() for r in ranges.split(",")] if ranges else [None]
-        self.credential_file = CREDENTIAL_FILE
+        self.credential_file = settings.CREDENTIAL_FILE
 
     @utils.timing_decorator
     @utils.log_execution
@@ -76,15 +76,38 @@ class GSHandler:
             
     @utils.timing_decorator
     @utils.log_execution
-    @backoff.on_exception(backoff.expo, google.api_core.exceptions.GoogleAPICallError, max_tries=8, on_backoff=utils.backoff_hdlr, logger="logger")
-    def push_data_to_big_query(self, sheet_df, table_name, schema=None):
+    @backoff.on_exception(
+        backoff.expo,
+        google.api_core.exceptions.GoogleAPICallError,
+        max_tries=8,
+        on_backoff=utils.backoff_hdlr,
+        logger="logger"
+    )
+    def push_data_to_big_query(self, sheet_df: pd.DataFrame, table_name: str, schema=None):
+        """
+
+        Parameters
+        ----------
+        sheet_df
+        table_name
+        schema
+
+        Returns
+        -------
+
+        """
         credentials = service_account.Credentials.from_service_account_file(
             self.credential_file,
             scopes=["https://www.googleapis.com/auth/cloud-platform"],
         )
+        if len(table_name.split(".")) == 3:
+            project_id, dataset, table_name = table_name.split(".")
+        else:
+            project_id = credentials.project_id
+            dataset, table_name = table_name.split(".")
 
         client = bigquery.Client(
-            credentials=credentials, project=credentials.project_id
+            credentials=credentials, project=project_id
         )
         # job_config = bigquery.LoadJobConfig()
         job_config = bigquery.LoadJobConfig(
@@ -97,10 +120,10 @@ class GSHandler:
         job_config.schema_update_options = [
             bigquery.SchemaUpdateOption.ALLOW_FIELD_ADDITION
         ]
-
+        table_name = f"{project_id}.{dataset}.{table_name}"
         # Delete existing table and re-create. Idiot approach!
         try:
-            client.delete_table(f"{credentials.project_id}.{table_name}")
+            client.delete_table(table_name)
         except Exception as e:
             # Silently delete table if exist
             pass        

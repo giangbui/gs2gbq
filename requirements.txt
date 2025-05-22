@@ -8,3 +8,5 @@ fsspec
 pyarrow
 gspread==5.9.0
 backoff==2.2.1
+pydantic
+pydantic-settings==2.9.1 

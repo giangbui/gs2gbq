@@ -5,7 +5,6 @@ import pandas as pd
 
 import utils
 from gshandler import GSHandler
-from conf import CREDENTIAL_FILE, JOB_CONFIG_FILE
 
 import logging.config
 
