@@ -7,7 +7,7 @@ from typing import Any
 import pandas as pd
 
 import utils
-from conf import CREDENTIAL_FILE, JOB_CONFIG_FILE, LOG_FILE
+from conf import settings
 from gshandler import GSHandler
 from jobconfig import ConfigLoader, configCheck, PASS, FAIL
 
@@ -132,5 +132,5 @@ class JobManager:
 
 
 if __name__ == "__main__":
-    manager = JobManager(JOB_CONFIG_FILE, LOG_FILE)
+    manager = JobManager(settings.JOB_CONFIG_FILE, settings.LOG_FILE)
     manager.run()
